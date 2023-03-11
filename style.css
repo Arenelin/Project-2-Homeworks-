@@ -40,6 +40,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    background: url(../Homework/img/bg.png);
    min-height: 100%;
+   background-color: #e8e8e8;
 }
 .container {
    max-width: 841px;
@@ -47,7 +48,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 }
 .head {
    text-align: center;
-   padding: 0px 61px;
+   padding: 43px 61px 75px 61px;
 }
 .title{
    opacity: 0.6;
