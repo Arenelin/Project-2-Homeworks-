@@ -7,17 +7,40 @@
    <title>Project 2</title>
 </head>
 <body>
-   <form action="#">
-      <p>Имя</p>
-   <input type="text" tabindex="1" placeholder="Your name" name="username" value="">
-   <p>Пароль</p>
-   <input type="password" tabindex="2" name="userpass" value="">
-   <p>Телефон</p>
-   <input type="tel" tabindex="3"  name="phone" value="">
-   <p>Пол</p>
-   <input type="radio" tabindex="4" name="gender" value="male">Мужчина
+   <form action="#" method="post" enctype="multipart/form-data">
+      <div class="">
+         <p>Имя</p>
+   <input type="text" tabindex="1" placeholder="Your name" name="username" value=""></div>
+      <div class="">
+         <p>Пароль</p>
+   <input type="password" tabindex="2" name="userpass" value=""></div>
+   <div class="">
+      <p>Телефон</p>
+   <input type="tel" tabindex="3"  name="phone" value=""></div>
+   <div class=""><p>Пол</p>
+   <input type="radio" tabindex="4" name="gender" checked value="male">Мужчина
    <br>
-   <input type="radio" tabindex="4" name="gender" value="female">Женщина
+   <input type="radio" tabindex="4" name="gender" value="female">Женщина</div>
+   <div class=""><p>Имущество</p>
+   <input type="checkbox" tabindex="5" checked name="bike">Велосипед
+   <br>
+   <input type="checkbox" tabindex="6" name="car">Машина
+   <br>
+   <input type="checkbox" tabindex="7" disabled name="house">Дом</div>
+   <div class=""><p>Дополнительная информация</p>
+   <textarea name="option" tabindex="8"></textarea></div>
+   <div class=""><p>Прикрепить фото</p>
+   <input type="file" tabindex="9"></div>
+   <div class=""><p>Любимый цвет</p>
+   <select name="colour" tabindex="10">
+      <option value="yellow" selected>Жёлтый</option>
+      <option value="red">Красный</option>
+      <option value="green">Зелёный</option>
+   </select></div>
+   <div class=""><p>Действия</p>
+   <button type="submit" tabindex="11">Отправить</button>
+   <button type="reset" tabindex="12">Очистить</button></div>
+   
    </form>
 </body>
 </html>
